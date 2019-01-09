@@ -4,18 +4,16 @@ function chgBtnColor()
 	document.getElementById("p15BackColor2").style.backgroundColor="red";
 	
 }
-
-var j=0;
+var chgValue=0;
+//因為是數值所以要先宣告為0
 function chgBtnValue()
 {
-   var i;
-  
-   for(i=0;i<10;i++)
+   var orgValue;
+   for(orgValue=0;orgValue<10;orgValue++)
    {
-	  j++;
+	  chgValue++;
    }
-   i=0;
-   document.getElementById("p15BackColor2").innerHTML=j+" ";
+   document.getElementById("p15BackColor2").innerHTML=chgValue+" ";
 }
 
 function chgBtnWidth()
